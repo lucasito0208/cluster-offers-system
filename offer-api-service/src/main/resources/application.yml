@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: offer-api-service
+  server:
+    port: 8082
+  offer-query:
+    base-url: http://localhost:8081
+
+
+
+

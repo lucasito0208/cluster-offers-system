@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: offer-query-service
+  neo4j:
+    uri: ${NEO4J_URI:bolt://localhost:7687}
+    authentication:
+      username: ${NEO4J_USERNAME:neo4j}
+      password: ${NEO4J_PASSWORD:supersecure}
+server:
+  port: 8081
+
+offer:
+  ingest:
+    url: http://localhost:8080
